@@ -6,6 +6,9 @@ How to how to implement in django
 ในการใช้ SSE ใน Django คุณต้องมีเว็บเซิร์ฟเวอร์แบบ asynchronous ซึ่ง Django เวอร์ชันใหม่รองรับการทำงานนี้ได้อย่างสมบูรณ์ด้วยความช่วยเหลือของเซิร์ฟเวอร์ ASGI เช่น Daphne
 
 git clone https://github.com/sippanun65ubu/DjangoSSE.git
+
 cd DjangoSSE
+
 cd myproject
+
 python manage.py runserver
